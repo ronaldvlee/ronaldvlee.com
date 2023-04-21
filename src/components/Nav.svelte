@@ -68,12 +68,17 @@
         <a
           href="/contact"
           class="block lg:inline-block text-lg px-5 py-3 leading-none mt-4 rounded lg:mt-0 lg:bg-blue-300 lg:text-white"
-          >Contact</a
+          >contact</a
         >
         <a
           href="/projects"
           class="block lg:inline-block text-lg px-5 py-3 leading-none mt-4 lg:mt-0"
-          >Projects</a
+          >projects</a
+        >
+        <a
+          href="./RONALD V LEE RESUME.pdf"
+          class="block lg:inline-block text-lg px-5 py-3 leading-none mt-4 lg:mt-0"
+          >resume</a
         >
       </div>
     </div>

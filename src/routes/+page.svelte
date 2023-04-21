@@ -11,7 +11,7 @@
                     i'm currently an undergrad at csu fullerton. 
                 </p>
                 <p class='text-xl text-white '>
-                    here's my <a href='/resume' class='text-blue-300 hover:underline'>resume</a> :&#x29;
+                    here's my <a href='./RONALD V LEE RESUME.pdf' class='text-blue-300 hover:underline'>resume</a> :&#x29;
                 </p>
             </div>
             <ul>
