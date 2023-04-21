@@ -7,7 +7,7 @@
   >
     <a href="/" class="flex items-center flex-shrink-0 mr-6">
       <img
-        class="w-10 hidden lg:block"
+        class="w-16 hidden lg:block"
         src="/logo.png"
         alt="Logo"
       />
