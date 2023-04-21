@@ -16,7 +16,7 @@
       >
     </a>
     <!-- Hamburger menu  -->
-    <div class="block mr-5 lg:hidden">
+    <div class="block lg:hidden">
       <button
         class="flex items-center w-3 h-3 p-3 pr-3"
         on:click={() => (closed = !closed)}
