@@ -72,11 +72,11 @@
           {link.title}
         </a>
       {/each}
-      <a
+      <!-- <a
         href="/contact"
         class="block lg:inline-block text-lg px-5 py-3 leading-none mt-4 rounded lg:mt-0 lg:bg-blue-300 lg:text-white hover:underline"
         >contact</a
-      >
+      > -->
     </div>
   </div>
 </nav>
