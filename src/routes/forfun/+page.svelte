@@ -12,7 +12,7 @@
     </div>
     <div class='flex overflow-x-auto justify-self-center space-x-16
         w-[100%] lg:w-auto 
-        mt-5 
+        p-5
         scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-gray-300'>
         {#each sends as send}
             <div class='flex-shrink-0'>
