@@ -1,5 +1,5 @@
-<section class='flex py-20'>
-    <div class = 'flex bg-[#786151] mx-auto rounded-lg border p-10'>
+<section class='flex pt-20'>
+    <div class = 'flex bg-[#786151] mx-auto rounded-lg p-10'>
         <img class='rounded-full w-56 h-56 mr-10 my-auto' src='picture.png' alt='A drawing of Ronald'/>
 
         <div class='text-xl text-white mr-auto my-auto pl-5'>
@@ -14,11 +14,10 @@
                     here's my <a href='/resume' class='text-blue-300 hover:underline'>resume</a> :&#x29;
                 </p>
             </div>
-            <ul class=''>
+            <ul>
                 <li>los angeles, ca</li>
                 <li>csuf 2023</li>
             </ul>
-
         </div>
     </div>
 </section>

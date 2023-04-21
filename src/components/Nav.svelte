@@ -11,7 +11,7 @@
         src="/logo.png"
         alt="Logo"
       />
-      <span class="font-semibold text-xl tracking-tight block md:hidden"
+      <span class="font-semibold text-xl tracking-tight block lg:hidden"
         >Ronald Lee</span
       >
     </a>
