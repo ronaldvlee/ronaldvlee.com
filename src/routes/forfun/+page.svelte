@@ -13,7 +13,7 @@
     <div class='flex gap-16 justify-self-center mt-5'>
         {#each sends as send}
             <div class='display'>
-                <iframe width="315" height="560" src={send.link} title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="315" height="560" src={send.link + '?&mute=1'} title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <h1 class='text-center'>{send.grade} - {send.location}.</h1>
             </div>
         {/each}
