@@ -3,7 +3,7 @@
 
   let links = [
     {title: 'projects', url: '/projects'},
-    {title: 'resume', url: './RONALD V LEE RESUME.pdf'},
+    {title: 'resume', url: './ronaldvlee-resume.pdf'},
     {title: 'hobbies', url: '/forfun'}
   ];
 </script>
