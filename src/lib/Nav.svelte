@@ -1,7 +1,7 @@
 <script lang="ts">
-  let closed = true;
+  let closed: boolean = true;
 
-  let links = [
+  const links = [
     {title: 'projects', url: '/projects'},
     {title: 'resume', url: './ronaldlee-resume.pdf'},
     {title: 'hobbies', url: '/forfun'}
@@ -13,9 +13,7 @@
 >
   <a href="/" class="flex items-center flex-shrink-0 mr-6">
     <img class="w-16 hidden lg:block" src="/logo.png" alt="Logo" />
-    <span class="font-semibold text-xl tracking-tight block lg:hidden"
-      >Ronald Lee</span
-    >
+    <span class="font-semibold text-xl tracking-tight block lg:hidden">Ronald Lee</span>
   </a>
   <!-- Hamburger menu  -->
   <div class="block lg:hidden">
@@ -63,7 +61,7 @@
     class="w-full flex flex-grow mt-4 lg:mt-0 lg:flex lg:items-center lg:w-auto"
   >
     <!-- Left side elements of Nav -->
-    <div class="text-sm lg:flex-grow" />
+    <div class="text-sm lg:flex-grow" ></div>
 
     <!-- Right side elements of Nav -->
     <div>
@@ -72,11 +70,6 @@
           {link.title}
         </a>
       {/each}
-      <!-- <a
-        href="/contact"
-        class="block lg:inline-block text-lg px-5 py-3 leading-none mt-4 rounded lg:mt-0 lg:bg-blue-300 lg:text-white hover:underline"
-        >contact</a
-      > -->
     </div>
   </div>
 </nav>
