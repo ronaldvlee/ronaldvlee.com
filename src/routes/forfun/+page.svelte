@@ -1,8 +1,6 @@
-<script type='ts'>
-    let sends = [
-        {location: 'the post, pasadena', link: 'https://www.youtube.com/embed/pmDOuDX3gR4', grade:'v7'},
-        {location: 'la boulders, los angeles', link: 'https://www.youtube.com/embed/quM-lbustO0', grade:'v7'}
-    ]
+<script lang='ts'>
+    import type { PageData } from './$types';
+    export let data: PageData;
 </script>
 
 <section class='grid'>
@@ -14,10 +12,10 @@
         w-[100%] lg:w-auto 
         p-5
         scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-gray-300'>
-        {#each sends as send}
+        {#each data.videos.data as send}
             <div class='flex-shrink-0'>
-                <iframe width="315" height="560" src={send.link + '?&mute=1'} title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <h1 class='text-center'>{send.grade} - {send.location}.</h1>
+                <iframe width="315" height="560" src={send['Link'] + '?&mute=1'} title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <h1 class='text-center'>{send['Grade']} - {send['Location']}.</h1>
             </div>
         {/each}
     </div>
