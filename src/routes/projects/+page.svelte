@@ -9,7 +9,7 @@
         <h1 class='text-center text-5xl'>projects</h1>
         <p class='my-2 px-5'>Here are some of the projects I have done. Check out my <a class='text-blue-600 hover:underline' href='https://github.com/ronaldvlee/'>github</a>!</p>
     </div>
-    <div class='grid grid-cols-1 gap-16 lg:grid-cols-3 lg:gap-32 justify-self-center mx-16 lg:mx-52'>
+    <div class='grid grid-cols-1 gap-16 lg:grid-cols-3 lg:gap-16 mx-16 lg:mx-32 2xl:mx-52'>
         {#each data.projects.data as project }
             <div class='relative pt-10 px-5 border rounded-lg bg-[#786151] text-white'>
                 <h1 class='text-3xl font-bold text-center mb-4'>{project['Name']}</h1>
