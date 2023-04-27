@@ -9,7 +9,7 @@
         <h1 class='text-center text-5xl'>hobbies</h1>
         <p class='mt-2 text-center'>i basically just boulder.</p>
     </div>
-    <div class='flex overflow-x-auto justify-self-center space-x-16
+    <div class='flex lg:grid lg:grid-cols-4 overflow-x-auto justify-self-center gap-16
         w-[100%] lg:w-auto 
         p-5
         scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-gray-300'>
