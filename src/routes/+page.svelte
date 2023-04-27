@@ -3,7 +3,7 @@
 </script>
 
 <section class='flex pt-20 px-5'>
-    <div class = 'grid gap-10 lg:flex bg-[#786151] mx-auto rounded-lg p-10'>
+    <div class = 'grid gap-10 lg:flex bg-brown mx-auto rounded-lg p-10'>
         <img class='justify-self-center rounded-full w-56 h-56 mr-10 my-auto' src='picture.png' alt='A drawing of Ronald' draggable="false"/>
 
         <div class='text-xl text-white mr-auto my-auto pl-5'>

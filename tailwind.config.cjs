@@ -5,7 +5,14 @@ module.exports = {
     fontFamily: {
       sans: ['"Anonymous Pro"', 'sans-serif']
     },
-    extend: {},
+    extend: {
+      colors: {
+        brown: {
+          DEFAULT: '#786151',
+          light: '#D7C4B5'
+        }
+      }
+    },
   },
   plugins: [
     require('tailwind-scrollbar')

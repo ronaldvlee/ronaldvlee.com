@@ -12,12 +12,12 @@
     </div>
     <div class='grid grid-cols-1 gap-16 lg:grid-cols-3 lg:gap-16 mx-16 lg:mx-32 2xl:mx-52'>
         {#each data.projects.data as project }
-            <div class='relative pt-10 px-5 rounded-lg bg-[#786151] text-white'>
+            <div class='relative pt-10 px-5 rounded-lg bg-brown text-white'>
                 <h1 class='text-3xl font-bold text-center mb-4'>{project['Name']}</h1>
                 
                 <!-- {#if project['Deployed'] || project['Github']} -->
                     <a href={project['Deployed'] ? project['Deployed'] : project['Github']}>
-                        <div class='flex max-w-[20rem] h-[20rem] m-auto overflow-hidden rounded-lg bg-[#D7C4B5] p-5'>
+                        <div class='flex max-w-[20rem] h-[20rem] m-auto overflow-hidden rounded-lg bg-brown-light p-5'>
                             <img class='my-auto justify-self-center' src={project['Thumbnail']} alt={project['Name']} draggable="false"/>
                         </div>
                     </a>
