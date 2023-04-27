@@ -11,6 +11,7 @@ export const load = (async() => {
         (data) => {
              Papa.parse(data.data, {
                 header: true,
+                skipEmptyLines: true,
                 complete: (result) => {
                     ret = result;
                 }
