@@ -33,13 +33,13 @@
                 <div class='py-5'></div>
                 <div class='absolute bottom-5 right-5 flex'>
                     {#if project['Github']}
-                        <a class='hover:border rounded-lg' href={project['Github']}>
+                        <a class='hover:outline hover:outline-1 hover:outline-offset-2 rounded-lg' href={project['Github']}>
                             <GithubBrand size='30' />
                         </a>
                     {/if}
                     {#if project['Deployed']}
                         <div class='pl-3'/>
-                        <a class='hover:border rounded-lg' href={project['Deployed']}>
+                        <a class='hover:outline hover:outline-1 hover:outline-offset-2 rounded-lg' href={project['Deployed']}>
                             <LinkSolid size='30' />
                         </a>
                     {/if}

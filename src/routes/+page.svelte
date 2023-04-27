@@ -17,10 +17,10 @@
                 <li>csuf 2023</li>
             </ul>
             <div class='flex mt-2 gap-5'>
-                <a href='https://www.linkedin.com/in/ronald-v-lee/'>
+                <a class='hover:outline hover:outline-1 hover:outline-offset-4 rounded-lg' href='https://www.linkedin.com/in/ronald-v-lee/'>
                     <LinkedinBrand size='35'/>
                 </a>
-                <a href='https://github.com/ronaldvlee'>
+                <a class='hover:outline hover:outline-1 hover:outline-offset-4 rounded-lg' href='https://github.com/ronaldvlee'>
                     <GithubBrand size='35'/>
                 </a>
             </div>
