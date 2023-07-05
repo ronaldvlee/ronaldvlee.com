@@ -6,14 +6,16 @@ This project is for CPSC 349 - Web Front End Engineering. This project will be a
 
 ## Instructions
 
+Install Node.js
+
+Install dependencies: `npm i`
+
+To run in developer mode: `npm run dev`
+
 Deployed on: https://cpsc-349-spring-2023-final.vercel.app/ and https://ronaldvlee.com
-
-To build: `npm i --save-dev`
-
-To run: `npm run dev`
 
 ## Created by
 
-Ronald Lee 885884916
+Ronald Lee, 885884916
 
-Derek Le 888777422
+Derek Le, 888777422
