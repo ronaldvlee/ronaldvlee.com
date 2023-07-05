@@ -1,6 +1,6 @@
 <script>
   import "../app.css";
-  import Nav from '$lib/Nav.svelte'
+  import Nav from './Nav.svelte'
 </script>
 
 <style>
@@ -17,7 +17,7 @@
 
 <slot />
 
-<div class='my-16'></div>
+<div class='my-32'></div>
 
 <!-- Bottom Right Text -->
 <div class='hidden lg:block lg:fixed right-0 bottom-0 m-2 text-slate-400 text-xs text-right'>
