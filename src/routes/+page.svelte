@@ -9,7 +9,7 @@
         <div class='text-xl text-white mr-auto my-auto pl-5'>
             <div class='mb-2'>
                 <p>hello! i am ronald lee.</p>
-                <p>i'm currently an undergrad at csu fullerton.</p>
+                <p>i finished my undergrad at csu fullerton. :&#41;&#41;</p>
                 <p>here's my <a href='./ronaldlee-resume.pdf' class='text-blue-300 hover:underline'>resume</a> :&#x29;</p>
             </div>
             <ul>
